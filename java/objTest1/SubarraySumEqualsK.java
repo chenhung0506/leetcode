@@ -14,8 +14,7 @@ public class SubarraySumEqualsK{
     public static void main(String[] args) {
         int[] nums = {1,1,1};
         int result = subarraySum(nums, 2);
- 
-        System.out.println(result);
+         System.out.println(result);
     }
 }
 
