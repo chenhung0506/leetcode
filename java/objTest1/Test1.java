@@ -9,13 +9,14 @@ import java.util.stream.Collectors;
 public class Test1{
     public static void main(String[] args) {
 
-		Date dt = new Date();
-		Calendar c = Calendar.getInstance(); 
-		c.setTime(dt); 
-		c.add(Calendar.DATE, 1);
-		dt = c.getTime();
+        Date dt = new Date();
+        Calendar c = Calendar.getInstance(); 
+        c.setTime(dt); 
+        c.add(Calendar.DATE, -1);
+        dt = c.getTime();
 
         System.out.println(dt);
+        System.out.println("=============");
         String trades = "";
         if(trades!="" && Integer.valueOf(trades)==0) {
            System.out.println("succeee");
