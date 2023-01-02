@@ -1,4 +1,4 @@
-package com.leetcode.leetcode.errorTest1;
+package com.linch.leetcode.errorTest1;
 
 
 public class Account {

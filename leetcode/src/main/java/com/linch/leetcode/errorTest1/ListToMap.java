@@ -1,4 +1,4 @@
-package com.leetcode.leetcode.errorTest1;
+package com.linch.leetcode.errorTest1;
 
 import java.util.ArrayList;
 import java.util.Arrays;
